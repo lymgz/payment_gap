@@ -1,4 +1,4 @@
-# Payment_gap
+# Code for manuscript "Balancing Payment Gaps and Overdue delivery of Commercial Residential: Evidence from China"
 Manuscript titled "Why overdue delivery of commercial residential be occurred? Evidence from China"
 2024-1-16
 This study investigates the effect of payment gap on commercial residential overdue delivery. Using Chinese 174 overdue projects’ data form top 10 real estate firms.
@@ -13,3 +13,5 @@ R31; R38; G21; G32; G38; C38
 
 Doi: ...
 Author: ...
+
+![image](https://github.com/lymgz/payment_gap/assets/50073088/90a379d8-09ca-4ab1-a1d7-1447bda83c6e)
