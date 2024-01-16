@@ -23,5 +23,5 @@ R31; R38; G21; G32; G38; C38
 Figure 1. The cash flow co-governance management structure formed by the real estate firms lacking funds and the government.
 ![image](https://github.com/lymgz/payment_gap/assets/50073088/90a379d8-09ca-4ab1-a1d7-1447bda83c6e)
 
-Figure 2. The distribution of overdue delivery projects.
+Figure 2. The distribution of overdue delivery project samples.
 ![image](https://github.com/lymgz/payment_gap/assets/50073088/da432178-a9e6-4a74-a3f0-4e5146a57d57)
