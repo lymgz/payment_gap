@@ -20,4 +20,5 @@ R31; R38; G21; G32; G38; C38
 ### Author: ...
 
 #### Part citations as follows:
-
+![image](https://github.com/lymgz/payment_gap/assets/50073088/9b902be0-683d-44aa-9831-b0d19e91fe20)
+Figure 2. The distribution of overdue delivery projects.
