@@ -1,0 +1,223 @@
+{
+  "bootstrap_repetitions": 199,
+  "codebook_validation": {
+    "conflicts_requiring_definition_confirmation": [
+      {
+        "field": "firm_id",
+        "issue": "template says F01-F10, workbook data and codebook use 0-3 operator/stage codes",
+        "severity": "review_required"
+      },
+      {
+        "field": "completion_pct",
+        "issue": "field name/template say 0-100 percentage, workbook codebook uses construction-stage codes and observed values are 1-5",
+        "severity": "review_required"
+      },
+      {
+        "field": "months_overdue",
+        "issue": "template wording suggests months, workbook codebook uses four duration bands 1-4",
+        "severity": "review_required"
+      },
+      {
+        "field": "gov_intervention",
+        "issue": "plan says 0-2, workbook data/codebook use 0-3 with code 3 for fiscal capital injection",
+        "severity": "review_required"
+      }
+    ],
+    "observed_codes": {
+      "completion_pct": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "contractor_litigation": [
+        0.0,
+        1.0
+      ],
+      "contractor_soe": [
+        0.0,
+        1.0
+      ],
+      "firm_id": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "gov_intervention": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "months_overdue": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "offset_discount": [
+        0.8,
+        0.85,
+        0.9,
+        0.95,
+        1.0,
+        1.05,
+        1.1,
+        1.2,
+        1.3
+      ]
+    },
+    "status": "review_required",
+    "value_warnings": [
+      "offset_discount_contains_values_above_one"
+    ]
+  },
+  "completion_cutoff": 2.0,
+  "database": "C:\\bgy\\C-documents\\碧桂园\\综合管理\\职称\\博士相关\\UPM\\Disorder_payment_after_debt_default\\Restructural_Code_02\\data\\current\\disorder_payment_data.db",
+  "database_info": {
+    "database": "C:\\bgy\\C-documents\\碧桂园\\综合管理\\职称\\博士相关\\UPM\\Disorder_payment_after_debt_default\\Restructural_Code_02\\data\\current\\disorder_payment_data.db",
+    "database_sha256": "d3fd03a5b0bfd789747c5244a41ecbd4ff0ca4339eecd1c1164dae17cde3c2c6",
+    "joined_rows": 174,
+    "main_rows": 174,
+    "provenance": [
+      {
+        "dataset_name": "china_label",
+        "row_count": 66,
+        "source_file": "china_label.dta",
+        "source_sha256": "5e67a64c1d9480a966d02a8248acdd8193d9919c469487c90cad159a755327a6"
+      },
+      {
+        "dataset_name": "china_map",
+        "row_count": 21654,
+        "source_file": "china_map.dta",
+        "source_sha256": "bc7feff426f3718e65f850dda9713d58e7f229efba9f2e83328061c08d6b39a7"
+      },
+      {
+        "dataset_name": "main",
+        "row_count": 174,
+        "source_file": "data.dta",
+        "source_sha256": "2ffac892449622e46df6a6ed7bb298e03f53586743faef59c3938ae33b8e6898"
+      },
+      {
+        "dataset_name": "province_map",
+        "row_count": 66,
+        "source_file": "province_map.dta",
+        "source_sha256": "87a84792104270624e30f6843f501a9783cd19b559da1699efbb05aed347476a"
+      },
+      {
+        "dataset_name": "supplemental",
+        "row_count": 174,
+        "source_file": "supplement_template.xlsx",
+        "source_sha256": "0c3a18da78e66bc79f696510d12357c846e78ec630d0e5ff2c5f2abb8c5f7d7d"
+      }
+    ],
+    "supplemental_rows": 174
+  },
+  "figures": {
+    "completion_full_overdue": "C:\\bgy\\C-documents\\碧桂园\\综合管理\\职称\\博士相关\\UPM\\Disorder_payment_after_debt_default\\Restructural_Code_02\\outputs\\supplemental\\figures\\completion_full_overdue.png",
+    "duration_severity": "C:\\bgy\\C-documents\\碧桂园\\综合管理\\职称\\博士相关\\UPM\\Disorder_payment_after_debt_default\\Restructural_Code_02\\outputs\\supplemental\\figures\\duration_severity.png",
+    "firm_outcomes": "C:\\bgy\\C-documents\\碧桂园\\综合管理\\职称\\博士相关\\UPM\\Disorder_payment_after_debt_default\\Restructural_Code_02\\outputs\\supplemental\\figures\\firm_outcomes.png",
+    "full_overdue_proxy_agreement": "C:\\bgy\\C-documents\\碧桂园\\综合管理\\职称\\博士相关\\UPM\\Disorder_payment_after_debt_default\\Restructural_Code_02\\outputs\\supplemental\\figures\\full_overdue_proxy_agreement.png",
+    "government_intervention": "C:\\bgy\\C-documents\\碧桂园\\综合管理\\职称\\博士相关\\UPM\\Disorder_payment_after_debt_default\\Restructural_Code_02\\outputs\\supplemental\\figures\\government_intervention.png",
+    "model_effects": "C:\\bgy\\C-documents\\碧桂园\\综合管理\\职称\\博士相关\\UPM\\Disorder_payment_after_debt_default\\Restructural_Code_02\\outputs\\supplemental\\figures\\model_effects.png",
+    "supplement_missingness": "C:\\bgy\\C-documents\\碧桂园\\综合管理\\职称\\博士相关\\UPM\\Disorder_payment_after_debt_default\\Restructural_Code_02\\outputs\\supplemental\\figures\\supplement_missingness.png"
+  },
+  "finished_at_utc": "2026-09-06T00:46:44.446639+00:00",
+  "interpretation_status": "exploratory_only_codebook_review_required",
+  "marketization": {
+    "matched_rows": 0,
+    "status": "not_supplied",
+    "unmatched_rows": 174
+  },
+  "model_metadata": [
+    {
+      "clusters": 23,
+      "covariance": "cluster:Province",
+      "formula": "full_overdue_incidence ~ x1 + x2 + x3 + x4 + x5 + x6 + x7 + C(color)",
+      "model": "full_overdue_logit_base",
+      "n": 174,
+      "status": "completed"
+    },
+    {
+      "clusters": 23,
+      "covariance": "cluster:Province",
+      "formula": "full_overdue_incidence ~ x1 + x2 + x3 + x4 + x5 + x6 + x7 + C(color) + C(completion_stage) + C(gov_intervention) + C(firm_id) + contractor_litigation + contractor_soe",
+      "model": "full_overdue_logit_supplement",
+      "n": 174,
+      "status": "completed"
+    },
+    {
+      "clusters": 23,
+      "covariance": "cluster:Province",
+      "formula": "completion_low_proxy ~ x1 + x2 + x3 + x4 + C(gov_intervention) + contractor_litigation + contractor_soe",
+      "model": "completion_low_proxy_logit",
+      "n": 174,
+      "status": "completed"
+    },
+    {
+      "clusters": 16,
+      "covariance": "cluster:Province",
+      "formula": "O_rate_clipped ~ x1_int_w + x2 + x3 + x4 + C(completion_stage) + C(gov_intervention) + offset_discount + contractor_litigation + contractor_soe",
+      "model": "severity_fractional_logit",
+      "n": 42,
+      "status": "completed"
+    },
+    {
+      "formula": "OrderedModel",
+      "model": "duration_ordered_logit",
+      "n": 174,
+      "status": "completed"
+    }
+  ],
+  "output_dir": "C:\\bgy\\C-documents\\碧桂园\\综合管理\\职称\\博士相关\\UPM\\Disorder_payment_after_debt_default\\Restructural_Code_02\\outputs\\supplemental",
+  "outputs": [
+    "diagnostics\\analysis_frame.csv",
+    "diagnostics\\codebook_validation.json",
+    "diagnostics\\figure_warnings.csv",
+    "diagnostics\\merge_report.csv",
+    "diagnostics\\selection_check.csv",
+    "diagnostics\\supplement_missingness.csv",
+    "figures\\completion_full_overdue.png",
+    "figures\\duration_severity.png",
+    "figures\\firm_outcomes.png",
+    "figures\\full_overdue_proxy_agreement.png",
+    "figures\\government_intervention.png",
+    "figures\\model_effects.png",
+    "figures\\supplement_missingness.png",
+    "logs\\supplemental_analysis.log",
+    "run_manifest.json",
+    "tables\\duration_robustness.csv",
+    "tables\\firm_id_summary.csv",
+    "tables\\full_overdue_proxy_agreement.csv",
+    "tables\\gov_intervention_analysis.csv",
+    "tables\\model_metadata.csv",
+    "tables\\model_terms.csv",
+    "tables\\supplemental_descriptives.csv",
+    "tables\\two_part_model.csv",
+    "tables\\wild_cluster_bootstrap.csv"
+  ],
+  "rows": {
+    "analysis": 174,
+    "raw_joined": 174,
+    "severity_below_full_overdue": 42
+  },
+  "run_name": "supplemental_analysis",
+  "seed": 123,
+  "started_at_utc": "2026-09-06T00:46:42.893567+00:00",
+  "status": "completed",
+  "target_year": 2023,
+  "warnings": [
+    "marketization_csv_not_supplied",
+    "offset_discount_contains_values_above_one",
+    "inferential_outputs_are_exploratory_until_codebook_is_confirmed",
+    "full_overdue_logit_supplement_runtime_warning=divide by zero encountered in divide",
+    "full_overdue_logit_supplement_runtime_warning=invalid value encountered in multiply",
+    "full_overdue_logit_supplement_used_manual_cluster_covariance_after_nonfinite_statsmodels_result"
+  ],
+  "x1_int_winsor_limits": [
+    0.0,
+    0.0052629059557333276
+  ]
+}

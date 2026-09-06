@@ -1,0 +1,5 @@
+﻿dataset,passed,row_count,column_count,missing_required_columns,errors,warnings
+main,True,174,17,,,
+province_map,True,66,10,,,
+china_map,True,21654,3,,,coordinate_separator_rows=66
+china_label,True,66,5,,,

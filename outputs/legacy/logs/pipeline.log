@@ -1,0 +1,5 @@
+run_name=legacy
+input_dir=C:\bgy\C-documents\碧桂园\综合管理\职称\博士相关\UPM\Disorder_payment_after_debt_default\Restructural_Code_02\data\legacy
+output_dir=C:\bgy\C-documents\碧桂园\综合管理\职称\博士相关\UPM\Disorder_payment_after_debt_default\Restructural_Code_02\outputs\legacy
+main_shape=(174, 17)
+status=completed
