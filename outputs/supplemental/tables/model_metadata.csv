@@ -1,6 +1,0 @@
-﻿model,formula,n,clusters,status,covariance
-full_overdue_logit_base,full_overdue_incidence ~ x1 + x2 + x3 + x4 + x5 + x6 + x7 + C(color),174,23.0,completed,cluster:Province
-full_overdue_logit_supplement,full_overdue_incidence ~ x1 + x2 + x3 + x4 + x5 + x6 + x7 + C(color) + C(completion_stage) + C(gov_intervention) + C(firm_id) + contractor_litigation + contractor_soe,174,23.0,completed,cluster:Province
-completion_low_proxy_logit,completion_low_proxy ~ x1 + x2 + x3 + x4 + C(gov_intervention) + contractor_litigation + contractor_soe,174,23.0,completed,cluster:Province
-severity_fractional_logit,O_rate_clipped ~ x1_int_w + x2 + x3 + x4 + C(completion_stage) + C(gov_intervention) + offset_discount + contractor_litigation + contractor_soe,42,16.0,completed,cluster:Province
-duration_ordered_logit,OrderedModel,174,,completed,

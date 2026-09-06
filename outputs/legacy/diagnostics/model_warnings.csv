@@ -1,3 +1,0 @@
-﻿model,status,n_obs,warning
-mixed_region,warning,174,Random effects covariance is singular; The random effects covariance matrix is singular.; The MLE may be on the boundary of the parameter space.; The Hessian matrix at the estimated parameter values is not positive definite.
-mixed_region_color,warning,174,divide by zero encountered in log; divide by zero encountered in divide; invalid value encountered in scalar add; Random effects covariance is singular; The Hessian matrix at the estimated parameter values is not positive definite.
